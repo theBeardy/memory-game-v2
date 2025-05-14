@@ -7,12 +7,6 @@
     <title>Memory Game</title>
 </head>
 <body data-theme="dark">
-    <select name="theme" id="theme-selector">
-        <option value="dark" selected>Dark Theme</option>
-        <option value="cyberpunk">Cyberpunk Theme</option>
-        <option value="minecraft">Minecraft Theme</option>
-        <option value="lotr">Lord of the Rings Theme</option>
-    </select>
     <div class="animation">
         <div id="sqr-1" class="anim-sqr"></div>
         <div id="sqr-2" class="anim-sqr"></div>
@@ -22,7 +16,8 @@
         <div class="modal-inner">
             <h2>You Win! Well Done!</h2>
             <p>
-                Feel free to play again. The pictures will randomize every time.
+                Feel free to play again. Choose a different theme or the same one. 
+                <br>The prictures randomize every time.
             </p>
             <button id="reset-game">Play Again?</button>
         </div>
@@ -33,6 +28,12 @@
             <p>Matches Made</p>
             <p id="matches"></p>
         </div>
+        <select name="theme" id="theme-selector">
+        <option value="dark" selected>Dark Theme</option>
+        <option value="cyberpunk">Cyberpunk Theme</option>
+        <option value="minecraft">Minecraft Theme</option>
+        <option value="lotr">Lord of the Rings Theme</option>
+    </select>
         <button id="start">Click to Start</button>
         <div id="card-grid">
             

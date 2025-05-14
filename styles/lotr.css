@@ -21,7 +21,7 @@
 body{
     display: flex;
     background-color: var(--theme-color-2);
-    font-family: LOTR, sans-serif;
+    font-family: 'LOTR', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -29,9 +29,14 @@ body{
 }
 
 select {
-    position: absolute;
     top: 25px;
     left: 25px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background-color: var(--theme-color-5);
+    border: none;
+    border-radius: 6px;
 }
 
 h1 {
@@ -130,7 +135,7 @@ div {
 }
 
 button {
-    font-family: afacad flux, sans-serif;
+    font-family: LOTR, sans-serif;
     font-size: 18px;
 }
 
@@ -165,7 +170,7 @@ button:hover {
 }
 
 #start {
-    margin: 50px 20px 20px 20px;
+    margin: 20px;
     height: calc(var(--card-size) * 0.33);
     width: calc(var(--card-size));
     z-index: 1;
