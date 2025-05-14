@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Minecrafter';
-    src: url('components/fonts/Minecrafter-MA3Dw.ttf') format('truetype');
+    src: url('/memory-game-v2/components/fonts/Minecrafter-MA3Dw.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,7 +21,7 @@
 body{
     display: flex;
     background-color: var(--theme-color-2);
-    font-family: Minecrafter, sans-serif;
+    font-family: Minecrafter, Afacad Flux;
     flex-direction: column;
     justify-content: center;
     align-items: center;
