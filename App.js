@@ -117,6 +117,6 @@ const handleClick = (str, val) => {
 startBtn.addEventListener('click', () => startGame());
 resetBtn.addEventListener('click', () => resetGame());
 selector.addEventListener('change', (e) => {
-    themeStyle.setAttribute("href", `/styles/${e.target.value}.css`);
+    themeStyle.setAttribute("href", `styles/${e.target.value}.css`);
     cardThemeName = e.target.value;
 });
