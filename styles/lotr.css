@@ -33,6 +33,7 @@ select {
     left: 25px;
     height: 40px;
     width: 150px;
+    z-index: 999;
     text-align: center;
     background-color: var(--theme-color-5);
     border: none;

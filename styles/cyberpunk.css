@@ -29,6 +29,7 @@ select {
     left: 25px;
     height: 40px;
     width: 150px;
+    z-index: 999;
     text-align: center;
     color: var(--text-color-2);
     font-family: Share Tech Mono, sans-serif;
