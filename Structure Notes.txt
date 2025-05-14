@@ -1,0 +1,73 @@
+1. Plan the Game Structure
+Decide on the number of cards (e.g., 16 cards = 8 pairs).
+
+Each card will have a front (hidden state) and a back (revealed state).
+
+Cards should be able to flip when clicked and match in pairs.
+
+2. HTML Setup Advice
+Use a container (like a div) to hold all the cards.
+
+Each card can be its own div with a data attribute or inner element to store its identity (e.g., a symbol, image, or number).
+
+Keep things semantic and flexible; minimal HTML structure will make it easier to manipulate dynamically.
+
+3. CSS Styling Advice
+Use CSS grid or flexbox to lay out the cards in a clean grid.
+
+Apply transitions or transformations for the flip animation (e.g., using transform: rotateY).
+
+Make sure you distinguish between the card front and back, possibly with pseudo-elements or nested elements.
+
+4. JavaScript Logic Breakdown
+Randomize the card positions at the start of the game (shuffle algorithm).
+
+Track the state of the game: what’s flipped, matched, and still active.
+
+Handle click events: only allow two cards to be flipped at a time.
+
+Check if the two flipped cards match:
+
+If yes: leave them flipped.
+
+If no: flip them back after a delay.
+
+Keep track of matches, and detect when all pairs have been found.
+
+5. Game Flow Advice
+Use a lockout flag or similar mechanism to prevent rapid clicking or flipping more than two cards at once.
+
+Consider delays and timeouts to allow the player to see flipped cards before they flip back.
+
+Optionally include a restart button, a move counter, and/or a timer to track performance.
+
+6. Testing & UX Considerations
+Make sure your game is playable on both desktop and mobile.
+
+Use aria attributes and focus states if you want to improve accessibility.
+
+Polish with visual feedback (e.g., matched cards fade out, hover effects).
+
+<div class="card-container">
+            <div id="card-1" class="memory-card">
+                <div class="card-front">
+                    <code>Click to Flip</code>
+                </div>
+                <div class="card-back">
+                    <img src="./Ayo-1.jpeg" alt="Ayo 1">
+                </div>
+            </div>
+        </div>
+
+        `
+            <div class="card-container">
+            <div id="card-${i}" class="memory-card">
+                <div class="card-front" onclick="handleClick('card-${i}')">
+                    <code>Click to Flip</code>
+                </div>
+                <div class="card-back" onclick="handleClick('card-${i}')">
+                    <img src="./finn.jpg" alt="Ayo 1">
+                </div>
+            </div>
+        </div>
+        `
