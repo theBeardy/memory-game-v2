@@ -87,10 +87,10 @@ const startGame = () => {
             <div class="card-container">
             <div id="card-${i}" class="memory-card" value="${imgArr[i]}" onclick="handleClick('card-${i}', ${imgArr[i]})">
                 <div class="card-front" >
-                    <img src="/images/card-backs/${cardThemeName === '' ? 'dark' : cardThemeName}.jpg" alt="card-back picture">
+                    <img src="images/card-backs/${cardThemeName === '' ? 'dark' : cardThemeName}.jpg" alt="card-back picture">
                 </div>
                 <div class="card-back">
-                    <img src="./images/${cardThemeName === '' ? 'dark' : cardThemeName}-theme/img-${imgArr[i]}.jpg" alt="memory-game picture">
+                    <img src="images/${cardThemeName === '' ? 'dark' : cardThemeName}-theme/img-${imgArr[i]}.jpg" alt="memory-game picture">
                 </div>
             </div>
         </div>

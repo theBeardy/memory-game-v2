@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Minecrafter';
-    src: url('/components/fonts/Minecrafter-MA3Dw.ttf') format('truetype');
+    src: url('components/fonts/Minecrafter-MA3Dw.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

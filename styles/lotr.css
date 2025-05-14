@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'LOTR';
-    src: url('/components/fonts/anirm.ttf') format('truetype');
+    src: url('components/fonts/anirm.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
