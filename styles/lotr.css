@@ -9,11 +9,11 @@
 
 :root {
     --card-size: 150px;
-    --theme-color-1: #526935;
-    --theme-color-2: #926c4d;
-    --theme-color-3: #637f40;
-    --theme-color-4: #ad9f8e;
-    --theme-color-5: #9fac8f;
+    --theme-color-1: #000000;
+    --theme-color-2: #2b2f22;
+    --theme-color-3: #3c422f;
+    --theme-color-4: #4a4d35;
+    --theme-color-5: #5e614d;
     --text-color-1: var(--theme-color-1);
     --text-color-2: black; 
 }
